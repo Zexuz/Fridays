@@ -1,0 +1,105 @@
+.p, body {
+    overflow: hidden
+}
+
+.btn, body {
+    font-size: 14px
+}
+
+.btn, .btn:hover {
+    text-decoration: none
+}
+
+body {
+    margin: 0;
+    font-family: Oswald, sans-serif
+}
+
+p {
+    margin: 5px
+}
+
+.p div {
+    padding: .5em
+}
+
+.a {
+    position: absolute
+}
+
+.b {
+    top: 0;
+    bottom: 0
+}
+
+.c {
+    left: 0;
+    right: 0
+}
+
+.x {
+    left: 400px;
+    bottom: 300px;
+    z-index: 5
+}
+
+.x.m, .y {
+    left: 0
+}
+
+.x.m, .z {
+    bottom: 0
+}
+
+.y {
+    width: 400px;
+    right: initial;
+    z-index: 2
+}
+
+.y.m {
+    left: -400px
+}
+
+.z {
+    height: 300px;
+    left: 400px;
+    z-index: 1;
+    top: initial
+}
+
+.z.m {
+    left: 0;
+    bottom: -300px
+}
+
+#x {
+    background-color: #d3d3d3;
+    transition: left 1s, bottom 1s
+}
+
+#y {
+    background-color: #faebd7;
+    transition: left 1s
+}
+
+#z {
+    background-color: #7fffd4;
+    transition: bottom 1s, left 1s
+}
+
+.btn {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    font-family: Arial;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db)
+}
