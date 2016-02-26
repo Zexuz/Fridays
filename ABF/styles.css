@@ -1,0 +1,19 @@
+body {
+    font-family: "verdana";
+    font-size: 12px;
+}
+
+.person {
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgray;
+    display: inline-block;
+    text-align: center;
+}
+.person .bild{
+    width: 100px;
+}
+.person h3{
+    margin: 0px;
+    font-size: 1.2em;
+}
