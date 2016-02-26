@@ -21,6 +21,8 @@ function JobbManager() {
 
 JobbManager.prototype.getJobb = function (kommunId, nyckelord) {
     $("jobblista").html("");
+    //FIX: Vi kan nu inte söka på tomma strängar
+    if(nyckelord.trim().length == 0)return;
     this.api.getMatchningslista(kommunId, nyckelord, this._getMatchningslistaCallback);
 }
 
