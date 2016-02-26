@@ -12,6 +12,7 @@ function JobbManager() {
         console.log(data);
 
         // En loop som skapar JobbData-objekt av alla jobb-matchningar
+        if (data)
             for (var i = 0; i < data.length; i++) {
                 var jobbData = new ABF.jobb.Data(data[i].annonsid, me._onJobbdataLoaded);
             }
